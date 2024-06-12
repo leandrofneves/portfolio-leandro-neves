@@ -20,7 +20,7 @@ const Article = (props) => {
 					<div className="homepage-article-description">
 						{description}
 					</div>
-					<div className="homepage-article-link">
+					{/* <div className="homepage-article-link">
 						<Link to={link}>
 							Read article{" "}
 							<FontAwesomeIcon
@@ -28,7 +28,7 @@ const Article = (props) => {
 								icon={faChevronRight}
 							/>
 						</Link>
-					</div>
+					</div> */}
 				</div>
 			</div>
 		</React.Fragment>

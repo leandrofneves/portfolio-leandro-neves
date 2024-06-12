@@ -7,12 +7,8 @@ const INFO = {
 	},
 
 	socials: {
-		twitter: "https://twitter.com/",
-		github: "https://github.com/",
-		linkedin: "https://linkedin.com/",
-		instagram: "https://instagram.com/",
-		stackoverflow: "https://stackoverflow.com/",
-		facebook: "https://facebook.com/",
+		github: "https://github.com/leandrofneves",
+		linkedin: "https://www.linkedin.com/in/leandro-ferreira-das-neves-089752228/",
 	},
 
 	homepage: {
@@ -35,49 +31,32 @@ const INFO = {
 
 	projects: [
 		{
-			title: "Project 1",
+			title: "Arbho Solutions",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"Trabalho de conclusão de curso em desenvolvimento. Trata-se de uma aplicação para auxilio e controle de obras. Estamos utilizando Next.js.",
+			logo: "https://www.drupal.org/files/project-images/nextjs-icon-dark-background.png",
+			linkText: "Projeto privado",
+			link: "#",
+		},
+
+		{
+			title: "Discovery Code",
+			description:
+				"Uma biblioteca de perguntas e respostas sobre desenvolvimento e programação. Desenvolvido com JavaScript e PHP.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
+			linkText: "Ver projeto",
+			link: "https://github.com/leandrofneves/Discovery-Code",
 		},
 
 		{
-			title: "Project 2",
+			title: "Controle de Produtos",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
-			linkText: "View Project",
-			link: "https://github.com",
+				"A aplicação permite a criação, visualização, edição e exclusão de produtos. Utilizei PHP no desenvolvimento.",
+			logo: "https://pngimg.com/uploads/php/php_PNG23.png",
+			linkText: "Ver projeto",
+			link: "https://github.com/leandrofneves/Controle-Produtos",
 		},
 
-		{
-			title: "Project 3",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
-
-		{
-			title: "Project 4",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
-
-		{
-			title: "Project 5",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
 	],
 };
 

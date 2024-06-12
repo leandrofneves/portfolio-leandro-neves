@@ -6,6 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
 	faTwitter,
 	faGithub,
+	faLinkedin,
 	faStackOverflow,
 	faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
@@ -84,37 +85,29 @@ const Homepage = () => {
 				<div className="content-wrapper">
 					<div className="homepage-logo-container">
 						<div style={logoStyle}>
-							<Logo width={logoSize} link={false} />
+							{/* <Logo width={logoSize} link={false} /> */}
 						</div>
 					</div>
 
 					<div className="homepage-container">
 						<div className="homepage-first-area">
-							<div className="homepage-first-area-left-side">
+							<div className="">
 								<div className="title homepage-title">
-									{INFO.homepage.title}
+									Leandro Ferreira, <br/> Desenvolvedor Full Stack 👨‍💻
 								</div>
 
 								<div className="subtitle homepage-subtitle">
-									{INFO.homepage.description}
+									Olá, sou Leandro Ferreira Das Neves, tenho 20 anos e resido em Americana, SP. Domino linguagens como JavaScript, Node, ReactJS e PHP, tendo experiência na construção de aplicações web escaláveis, seguras e confiáveis, utilizando diversos frameworks e tecnologias.
+									Além disso, possuo conhecimento em banco de dados, sendo familiarizado com PostgreSQL e MySQL.
+									Estou sempre em busca de novos desafios e oportunidades para crescer como desenvolvedor, contribuindo para o sucesso e inovação das equipes e organizações onde atuo.
 								</div>
 							</div>
 
-							<div className="homepage-first-area-right-side">
-								<div className="homepage-image-container">
-									<div className="homepage-image-wrapper">
-										<img
-											src="homepage.jpg"
-											alt="about"
-											className="homepage-image"
-										/>
-									</div>
-								</div>
-							</div>
+							
 						</div>
 
 						<div className="homepage-socials">
-							<a
+							{/* <a
 								href={INFO.socials.twitter}
 								target="_blank"
 								rel="noreferrer"
@@ -123,9 +116,9 @@ const Homepage = () => {
 									icon={faTwitter}
 									className="homepage-social-icon"
 								/>
-							</a>
+							</a> */}
 							<a
-								href={INFO.socials.github}
+								href={`https://github.com/leandrofneves`}
 								target="_blank"
 								rel="noreferrer"
 							>
@@ -134,7 +127,7 @@ const Homepage = () => {
 									className="homepage-social-icon"
 								/>
 							</a>
-							<a
+							{/* <a
 								href={INFO.socials.stackoverflow}
 								target="_blank"
 								rel="noreferrer"
@@ -143,8 +136,8 @@ const Homepage = () => {
 									icon={faStackOverflow}
 									className="homepage-social-icon"
 								/>
-							</a>
-							<a
+							</a> */}
+							{/* <a
 								href={INFO.socials.instagram}
 								target="_blank"
 								rel="noreferrer"
@@ -153,9 +146,20 @@ const Homepage = () => {
 									icon={faInstagram}
 									className="homepage-social-icon"
 								/>
-							</a>
+							</a> */}
 							<a
-								href={`mailto:${INFO.main.email}`}
+								href={`https://www.linkedin.com/in/leandro-ferreira-das-neves-089752228/`}
+								target="_blank"
+								rel="noreferrer"
+							>
+								<FontAwesomeIcon
+									icon={faLinkedin}
+									className="homepage-social-icon"
+								/>
+							</a>
+
+							<a
+								href={`mailto:leandroferreiraneves23@gmail.com`}
 								target="_blank"
 								rel="noreferrer"
 							>
